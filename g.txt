@@ -1,0 +1,26 @@
+
+
+/*
+MongoClient.connect(url,function(err,db)
+{
+	if(err)
+	{
+		console.log("error occured"+err);
+	}
+	else
+	{
+		console.log("connection established");
+	}
+})
+console.log("server start");
+
+
+
+
+app.get('/',function(req,res)
+{
+	console.log("request comes from"+req.url);
+	res.send("hello world");
+
+});
+app.listen(3000); */
